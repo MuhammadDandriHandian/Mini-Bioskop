@@ -33,7 +33,7 @@ public class main {
 		if (Name.isEmpty() || (Name.length() < 3)) {
 			System.out.println("Masukin yg bener");
 			}else {
-				System.out.println("Hallo " + Name + ", anda memilih menu " + Choose);
+				System.out.println("Hallo " + Name + ", anda memilih menu : " + Choose);
 			}
 		}while (Name.isEmpty() || Name.length() < 3);
 			
